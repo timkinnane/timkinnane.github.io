@@ -1,0 +1,33 @@
+{
+  "name": "timkinnane",
+  "homepage": "https://github.com/timkinnane",
+  "authors": [
+    "Tim Kinnane <tim@nestedcode.com>"
+  ],
+  "description": "Tim Kinnane GitHub profile front end dependencies",
+  "main": "index.html",
+  "keywords": [
+    "harpjs",
+    "skeleton",
+    "bourbon",
+    "indclude-media",
+    "github",
+    "gh-pages",
+    "nestedcode",
+    "timkinnane"
+  ],
+  "license": "Copyright 2016 Tim Kinnane",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Skeleton-Sass": "skeleton-scss#*",
+    "bourbon": "^4.2.7",
+    "include-media": "^1.4.4"
+  }
+}

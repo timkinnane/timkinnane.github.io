@@ -1,0 +1,38 @@
+{
+  "name": "timkinnane.github.io",
+  "version": "0.0.0",
+  "description": "GitHub user page for Tim Kinnane built with HarpJS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "harp": "harp server -p 2999",
+    "harp-pid": "ps -ef | grep harp",
+    "harp-kill": "kill $(ps aux | grep '[h]arp' | awk '{print $2}')",
+    "sync": "browser-sync start --proxy localhost:2999 --files public/**/*.js, public/**/*.css, public/**/*.html --browser min",
+    "dev": "npm-run-all --parallel harp sync",
+    "clean": "rm -R ./www 2> /dev/null || true",
+    "compile": "harp compile _harp ./",
+    "build": "npm-run-all --sequential clean compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timkinnane/timkinnane.github.io.git"
+  },
+  "keywords": [
+    "harpjs",
+    "skeleton",
+    "github",
+    "gh-pages",
+    "nestedcode",
+    "timkinnane"
+  ],
+  "author": "Tim Kinnane <tim@nestedcode.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/timkinnane/timkinnane.github.io/issues"
+  },
+  "homepage": "https://github.com/timkinnane",
+  "devDependencies": {
+    "npm-run-all": "^2.1.1"
+  }
+}
