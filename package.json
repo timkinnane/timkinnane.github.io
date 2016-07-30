@@ -8,11 +8,11 @@
     "harp": "harp server -p 2999",
     "harp-pid": "ps -ef | grep harp",
     "harp-kill": "kill $(ps aux | grep '[h]arp' | awk '{print $2}')",
-    "sync": "browser-sync start --proxy localhost:2999 --files public/**/*.js, public/**/*.css, public/**/*.html --browser min",
+    "sync": "browser-sync start --proxy localhost:2999 --files _harp/**/*.js, _harp/**/*.css, _harp/**/*.html --browser min",
     "dev": "npm-run-all --parallel harp sync",
     "clean": "rm -R ./www 2> /dev/null || true",
     "compile": "harp compile _harp ./",
-    "build": "npm-run-all --sequential clean compile"
+    "build": "npm-run-all --sequential compile"
   },
   "repository": {
     "type": "git",
