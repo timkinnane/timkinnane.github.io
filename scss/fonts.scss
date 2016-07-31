@@ -1,0 +1,118 @@
+// Apply variant font faces
+@font-face {
+    font-family: 'Droid Serif';
+    src: url('../fonts/droidserif/DroidSerif-webfont.eot');
+    src: url('../fonts/droidserif/DroidSerif-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/droidserif/DroidSerif-webfont.woff') format('woff'),
+         url('../fonts/droidserif/DroidSerif-webfont.ttf') format('truetype'),
+         url('../fonts/droidserif/DroidSerif-webfont.svg#droid_serifregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Droid Serif';
+    src: url('../fonts/droidserif/DroidSerif-Italic-webfont.eot');
+    src: url('../fonts/droidserif/DroidSerif-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/droidserif/DroidSerif-Italic-webfont.woff') format('woff'),
+         url('../fonts/droidserif/DroidSerif-Italic-webfont.ttf') format('truetype'),
+         url('../fonts/droidserif/DroidSerif-Italic-webfont.svg#droid_serifitalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Droid Serif';
+    src: url('../fonts/droidserif/DroidSerif-Bold-webfont.eot');
+    src: url('../fonts/droidserif/DroidSerif-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/droidserif/DroidSerif-Bold-webfont.woff') format('woff'),
+         url('../fonts/droidserif/DroidSerif-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/droidserif/DroidSerif-Bold-webfont.svg#droid_serifbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Droid Serif';
+    src: url('../fonts/droidserif/DroidSerif-BoldItalic-webfont.eot');
+    src: url('../fonts/droidserif/DroidSerif-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/droidserif/DroidSerif-BoldItalic-webfont.woff') format('woff'),
+         url('../fonts/droidserif/DroidSerif-BoldItalic-webfont.ttf') format('truetype'),
+         url('../fonts/droidserif/DroidSerif-BoldItalic-webfont.svg#droid_serifbold_italic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto/roboto-light-webfont.eot');
+    src: url('../fonts/roboto/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto/roboto-light-webfont.woff2') format('woff2'),
+         url('../fonts/roboto/roboto-light-webfont.woff') format('woff'),
+         url('../fonts/roboto/roboto-light-webfont.ttf') format('truetype'),
+         url('../fonts/roboto/roboto-light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto/roboto-bold-webfont.eot');
+    src: url('../fonts/roboto/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto/roboto-bold-webfont.woff2') format('woff2'),
+         url('../fonts/roboto/roboto-bold-webfont.woff') format('woff'),
+         url('../fonts/roboto/roboto-bold-webfont.ttf') format('truetype'),
+         url('../fonts/roboto/roboto-bold-webfont.svg#robotobold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto/roboto-lightitalic-webfont.eot');
+    src: url('../fonts/roboto/roboto-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto/roboto-lightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/roboto/roboto-lightitalic-webfont.woff') format('woff'),
+         url('../fonts/roboto/roboto-lightitalic-webfont.ttf') format('truetype'),
+         url('../fonts/roboto/roboto-lightitalic-webfont.svg#robotolight_italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto/roboto-bolditalic-webfont.eot');
+    src: url('../fonts/roboto/roboto-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto/roboto-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/roboto/roboto-bolditalic-webfont.woff') format('woff'),
+         url('../fonts/roboto/roboto-bolditalic-webfont.ttf') format('truetype'),
+         url('../fonts/roboto/roboto-bolditalic-webfont.svg#robotobold_italic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Bebas Neue Regular';
+    src: url('../fonts/bebasneue/bebasneue_regular-webfont.eot');
+    src: url('../fonts/bebasneue/bebasneue_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebasneue/bebasneue_regular-webfont.woff2') format('woff2'),
+         url('../fonts/bebasneue/bebasneue_regular-webfont.woff') format('woff'),
+         url('../fonts/bebasneue/bebasneue_regular-webfont.ttf') format('truetype'),
+         url('../fonts/bebasneue/bebasneue_regular-webfont.svg#bebas_neue_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Bebas Neue Book';
+    src: url('../fonts/bebasneue/bebasneue_book-webfont.eot');
+    src: url('../fonts/bebasneue/bebasneue_book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebasneue/bebasneue_book-webfont.woff2') format('woff2'),
+         url('../fonts/bebasneue/bebasneue_book-webfont.woff') format('woff'),
+         url('../fonts/bebasneue/bebasneue_book-webfont.ttf') format('truetype'),
+         url('../fonts/bebasneue/bebasneue_book-webfont.svg#bebas_neuebook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Bebas Neue Light';
+    src: url('../fonts/bebasneue/bebasneue_light-webfont.eot');
+    src: url('../fonts/bebasneue/bebasneue_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebasneue/bebasneue_light-webfont.woff2') format('woff2'),
+         url('../fonts/bebasneue/bebasneue_light-webfont.woff') format('woff'),
+         url('../fonts/bebasneue/bebasneue_light-webfont.ttf') format('truetype'),
+         url('../fonts/bebasneue/bebasneue_light-webfont.svg#bebas_neuelight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
